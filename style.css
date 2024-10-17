@@ -6,7 +6,13 @@
   margin: 0;
   padding: 0;
 }
-
+.profile-pic {
+    width: 370px; /* Adjust the size as needed */
+    height: 340px; /* Ensure height equals width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area */
+    border: 2px solid #ddd; /* Optional: adds a border */
+}
 body {
   font-family: "Poppins", sans-serif;
 }
